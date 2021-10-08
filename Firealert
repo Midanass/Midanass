@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=width-device,initial-scale =1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/c
+ss/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.3/css/all.min.css" />
+    <style>
+        p,h2 {
+            margin: 0px
+        }
+
+        .header {
+            background-color: orange;
+            height: 100px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: orange;
+            height: 100px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .main {
+            height: 800px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .details {
+            list-style: none;
+        }
+        .img-thumbnail {
+            border: 2px inset;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h2>Quan Ly Khach San</h2>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 vitri">
+                    <a href="room.html"><img class="img-thumbnail" src="Images/1.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 1 </h5>
+                </div>
+                
+                <div class="col-md-4 vitri">
+                    <a href="index2.html"><img class="img-thumbnail" src="Images/2.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 2 </h5>
+                </div>
+                <div class="col-md-4 vitri">
+                    <a href="index2.html"><img class="img-thumbnail" src="Images/3.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 3</h5>
+                </div>
+                <div class="col-md-4 vitri">
+                    <a href="index2.html"><img class="img-thumbnail" src="Images/4.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 4 </h5>
+                </div>
+                <div class="col-md-4 vitri">
+                    <a href="index2.html"><img class="img-thumbnail" src="Images/5.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 5</h5>
+                </div>
+                <div class="col-md-4 vitri">
+                    <a href="index2.html"><img class="img-thumbnail" src="Images/6.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 6</h5>
+                </div>
+                <div class="col-md-4 vitri">
+                    <a href="index2.html"><img class="img-thumbnail" src="Images/7.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 7 </h5>
+                </div>
+                <div class="col-md-4 vitri">
+                    <a href="index2.html"><img class="img-thumbnail" src="Images/8.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 8</h5>
+                </div>
+                <div class="col-md-4 vitri">
+                    <a href="index2.html"><img class="img-thumbnail" src="Images/9.jpg" style="height: 225px; width: 325px ;" /></a>
+                    <h5> Room 9</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</br>        
+    <div class="footer">
+        <div class="container">
+            <p>@TH CNTT 3</p>
+        </div>
+    </div>
+</body>
+
+</html>
